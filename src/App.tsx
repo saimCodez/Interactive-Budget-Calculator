@@ -15,7 +15,7 @@ const App = () => {
           <Route
             path="/add-transaction"
             element={
-              <div className="md:hidden">
+              <div className="md:hidden ">
                 <AddTransaction />
               </div>
             }

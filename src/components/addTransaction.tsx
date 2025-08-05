@@ -116,7 +116,7 @@ const AddTransaction = () => {
   return (
     <>
       <form onSubmit={(e) => e.preventDefault()}>
-        <div className="w-[320px] h-[623px] md:mr-5">
+        <div className="w-[320px] h-[623px] md:mr-5 md:ml-[0px] ml-5">
           <div className="md:hidden mt-4">
             <button
               onClick={handleBackClick}
